@@ -1,0 +1,95 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ff85e5;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: #ffc6f7;
+    color: rgb(0, 0, 0);
+    padding: 20px 0;
+}
+
+h1 {
+    font-size: 28px;
+}
+
+section {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    padding: 20px;
+    text-align: left;
+}
+
+h2 {
+    color: #94007b;
+    font-size: 24px;
+}
+
+ul {
+    list-style-type: disc;
+    text-align: left;
+    margin-left: 20px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    background-color: #ff00ae;
+    color: white;
+    padding: 20px 0;
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para el formulario de suscripción */
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+input[type="email"] {
+    padding: 10px;
+    width: 250px;
+    border: 1px solid #007BFF;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    background-color: #f314ad;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}

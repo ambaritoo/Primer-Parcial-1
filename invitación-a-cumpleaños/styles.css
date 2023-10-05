@@ -1,0 +1,45 @@
+/* Estilos generales */
+body {
+    font-family: 'Comic Sans MS', cursive;
+    background-color: #ffc4e3; /* Color de fondo */
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #ff6699; /* Color del título */
+}
+
+p {
+    color: #333;
+    font-size: 18px;
+    margin: 10px;
+}
+
+a {
+    color: #ff6699; /* Color de enlaces */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para las imágenes */
+img {
+    max-width: 70%;
+    height: auto;
+    display: block;
+    margin: 20px auto; /* Centrar las imágenes */
+    border: 2px solid #ff6699; /* Borde alrededor de las imágenes */
+    border-radius: 10px;
+}
+
+/* Estilos específicos para la invitación */
+.invitation {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}

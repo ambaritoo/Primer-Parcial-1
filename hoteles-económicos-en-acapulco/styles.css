@@ -1,0 +1,46 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilos para títulos */
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+h2 {
+    color: hsla(211, 93%, 42%, 0.408);
+}
+s */
+p {
+    line-height: 1.4;
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+    width: 50%; 
+    height: 50%; 
+}
+
+imput.container{
+    color: #03d52ac6;
+    text-decoration: none;
+}
+
+a.boton-ayuda:hover {
+    text-decoration: underline;
+}

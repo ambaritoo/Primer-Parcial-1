@@ -1,0 +1,26 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffc4e5;
+} 
+h1{
+
+    color:black
+
+}
+h2{
+    color:rgb(245, 127, 249)
+}
+
+
+img {
+    width: 50%; /* Ajusta el ancho deseado */
+    height: 50%; /* Ajusta el alto deseado */
+  }
+
+  .container{
+    height: 80%;
+    width: 200%;
+    justify-content: center;
+
+  }

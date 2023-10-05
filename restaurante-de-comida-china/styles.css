@@ -1,0 +1,46 @@
+/* Estilos para el encabezado */
+h1 {
+    text-align: center;
+    font-size: 36px;
+    color: #ff6600; /* Color anaranjado */
+}
+
+/* Estilos para las imágenes */
+
+    img {
+        width: 30%; /* Ajusta el ancho deseado */
+        height: 30%; /* Ajusta el alto deseado */
+        border: 5px solid #ff6600; 
+      }
+
+/* Estilos para los títulos de sección */
+h2 {
+    font-size: 24px;
+    color: #333; /* Color de texto oscuro */
+    margin-top: 20px;
+}
+
+/* Estilos para la lista de elementos */
+ul {
+    list-style-type: none; /* Elimina los puntos de la lista */
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* Estilos para los precios */
+li::before {
+    content: "$"; /* Agrega el símbolo de dólar antes de los precios */
+    margin-right: 5px;
+}
+
+/* Estilos para el pie de página */
+p {
+    text-align: center;
+    font-size: 16px;
+    color: #666; /* Color de texto gris */
+}
